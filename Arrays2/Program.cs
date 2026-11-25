@@ -31,6 +31,16 @@ namespace Arrays2
             Console.WriteLine(fruit[1] + "  = " + fruitOnHand[1]);
             Console.WriteLine(fruit[2] + "  = " + fruitOnHand[2]);
 
+            Console.WriteLine("\n=== Map ===");
+            Console.WriteLine("");
+            for (int y = 0; y < 12; y++)
+            {
+                for(int x = 0; x < 30; x++)
+                {
+                    Console.Write(map[y, x]);
+                }
+                Console.WriteLine("");
+            }
             
         }
     }
